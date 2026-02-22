@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contributions Pie Chart</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Map</a>
+            <a href="candidates.html">Candidates</a>
+            <a href="NGOs.html">NGOs</a>
+            <a href="signal_groupchats.html">Signal GroupChats</a>
+            <a class="active" href="contributions.html">Contributions</a>
+        </div>
+
+        <br><br><br>
+
+        <h1>Contributions: Individual vs PAC</h1>
+
+        <div id="chart-container">
+            <div id="pie-chart"></div>
+            <div id="legend">
+                <div class="legend-item">
+                    <span class="color-box" style="background-color: #3498db;"></span>
+                    <span id="individual-label">Individual: $0</span>
+                </div>
+                <div class="legend-item">
+                    <span class="color-box" style="background-color: #e74c3c;"></span>
+                    <span id="pac-label">PAC: $0</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-message" style="display: none; color: red;"></div>
+
+        <script src="js/init_contributions.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=load"></script>
+        <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Map</a>
+            <a class="active" href="candidates.html">Candidates</a>
+            <a href="NGOs.html">NGOs</a>
+            <a href="signal_groupchats.html">Signal GroupChats</a>
+            <div class="search-container">
+                <input type="text" id="candidateSearch" placeholder="Search candidates..." autocomplete="off">
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <fieldset>
+            <legend>Pick Party</legend>
+
+            <input type="radio" id="democrat" name="group" value="democrat">
+            <label for="democrat">Democrat</label>
+
+            <input type="radio" id="republican" name="group" value="republican">
+            <label for="republican">Republican</label>
+
+            <input type="radio" id="other" name="group" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+
+        
+        <script src="js/init_candidates.js" defer></script>
+        <table id="candidateTable">
+            <tr>
+                <th>
+                    Candidate Name
+                </th>
+                <th>
+                    House District or Senate
+                </th>
+                <th>
+                    State
+                </th>
+                <th>
+                    Website
+                </th>
+            </tr>
+        </table>
+    </body>   
+</html>

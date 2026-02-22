@@ -1,0 +1,363 @@
+[
+  'Alabama': {
+    type: 'Point',
+    coordinates: [
+      -86.7919921875,
+      32.84267363195431,
+    ],
+  },
+  'Alaska': {
+    type: 'Point',
+    coordinates: [
+      -153.193359375,
+      64.64270382119375,
+    ],
+  },
+  'Arizona': {
+    type: 'Point',
+    coordinates: [
+      -111.4013671875,
+      34.23451236236987,
+    ],
+  },
+  'Arkansas': {
+    type: 'Point',
+    coordinates: [
+      -92.4169921875,
+      35.101934057246055,
+    ],
+  },
+  'California': {
+    type: 'Point',
+    coordinates: [
+      -119.70703125,
+      37.09023980307208,
+    ],
+  }
+  'Colorado': {
+    type: 'Point',
+    coordinates: [
+      -105.6005859375,
+      39.19820534889479,
+    ],
+  },
+  'Connecticut': {
+    type: 'Point',
+    coordinates: [
+      -72.7294921875,
+      41.64007838467893,
+    ],
+  },
+  'Delaware': {
+    type: 'Point',
+    coordinates: [
+      -75.498046875,
+      38.99357205820945,
+    ],
+  },
+  'District Of Columbia': {
+  },
+  'Florida': {
+    type: 'Point',
+    coordinates: [
+      -82.02392578125,
+      28.940861769405572,
+    ],
+  },
+  'Georgia': {
+    type: 'Point',
+    coordinates: [
+      -83.25439453125,
+      32.324275588876546,
+    ],
+  },
+  'Hawaii': {
+    type: 'Point',
+    coordinates: [
+      -156.357421875,
+      20.262197124246526,
+    ],
+  },
+  'Idaho': {
+    type: 'Point',
+    coordinates: [
+      -114.6533203125,
+      44.402391829093915,
+    ],
+  },
+  'Illinois': {
+    type: 'Point',
+    coordinates: [
+      -89.296875,
+      40.145289295676605,
+    ],
+  },
+  'Indiana': {
+    type: 'Point',
+    coordinates: [
+      -86.2646484375,
+      39.90973623453718,
+    ],
+  },
+  'Iowa': {
+    type: 'Point',
+    coordinates: [
+      -93.515625,
+      42.09822241118974,
+    ],
+  },
+  'Kansas': {
+    type: 'Point',
+    coordinates: [
+      -98.7451171875,
+      38.548165423046555,
+    ],
+  },
+  'Kentucky': {
+    type: 'Point',
+    coordinates: [
+      -85.2978515625,
+      37.54457732085582,
+    ],
+  },
+  'Louisiana': {
+    type: 'Point',
+    coordinates: [
+      -92.28515625,
+      30.939924331023448,
+    ],
+  },
+  'Maine': {
+    type: 'Point',
+    coordinates: [
+      -69.2578125,
+      45.39844997630408,
+    ],
+  },
+  'Maryland': {
+    type: 'Point',
+    coordinates: [
+      -76.8603515625,
+      39.47012512235818,
+    ],
+  },
+  'Massachusetts': {
+    type: 'Point',
+    coordinates: [
+      -71.9384765625,
+      42.32606244456201,
+    ],
+  },
+  'Michigan': {
+    type: 'Point',
+    coordinates: [
+      -84.5068359375,
+      44.93369638969469,
+    ],
+  },
+  'Minnesota': {
+    type: 'Point',
+    coordinates: [
+      -94.21875,
+      46.34692761055675,
+    ],
+  },
+  'Mississippi': {
+    type: 'Point',
+    coordinates: [
+      -89.736328125,
+      32.84267363195431,
+    ],
+  },
+  'Missouri': {
+    type: 'Point',
+    coordinates: [
+      -92.5927734375,
+      38.2036553180715,
+    ],
+  },
+  'Montana':  {
+    type: 'Point',
+    coordinates: [
+      -109.16015625,
+      47.07012182383309,
+    ],
+  },
+  'Nebraska': {
+    type: 'Point',
+    coordinates: [
+      -99.9755859375,
+      41.86956082699456,
+    ],
+  },
+  'Nevada': {
+    type: 'Point',
+    coordinates: [
+      -116.5869140625,
+      40.078071427450084,
+    ],
+  },
+  'New Hampshire': {
+    type: 'Point',
+    coordinates: [
+      -71.5869140625,
+      43.675818093283425,
+    ],
+  },
+  'New Jersey': {
+    type: 'Point',
+    coordinates: [
+      -74.3994140625,
+      40.145289295676605,
+    ],
+  },
+  'New Mexico': {
+    type: 'Point',
+    coordinates: [
+      -105.99609375,
+      34.30714385628805,
+    ],
+  },
+  'New York': {
+    type: 'Point',
+    coordinates: [
+      -75.4541015625,
+      42.74701217318068,
+    ],
+  },
+  'North Carolina': {
+    type: 'Point',
+    coordinates: [
+      -79.4091796875,
+      35.56798045801209,
+    ],
+  },
+  'North Dakota': {
+    type: 'Point',
+    coordinates: [
+      -100.458984375,
+      47.4578085307503,
+    ],
+  },
+  'Ohio': {
+    type: 'Point',
+    coordinates: [
+      -82.705078125,
+      40.41349604970196,
+    ],
+  },
+  'Oklahoma': {
+    type: 'Point',
+    coordinates: [
+      -97.55859375,
+      35.88905007936091,
+    ],
+  },
+  'Oregon': {
+    type: 'Point',
+    coordinates: [
+      -120.2783203125,
+      44.02442151965934,
+    ],
+  },
+  'Pennsylvania': {
+    type: 'Point',
+    coordinates: [
+      -78.310546875,
+      41.07935114946898,
+    ],
+  },
+  'Rhode Island': {
+    type: 'Point',
+    coordinates: [
+      -71.575927734375,
+      41.68111756290651,
+    ],
+  },
+  'South Carolina': {
+    type: 'Point',
+    coordinates: [
+      -80.9033203125,
+      33.906895551288684,
+    ],
+  },
+  'South Dakota': {
+    type: 'Point',
+    coordinates: [
+      -100.1513671875,
+      44.8714427501659,
+    ],
+  },
+  'Tennessee': {
+    type: 'Point',
+    coordinates: [
+      -86.0009765625,
+      35.99578538642032,
+    ],
+  },
+  'Texas': {
+    type: 'Point',
+    coordinates: [
+      -98.8330078125,
+      31.80289258670676,
+    ],
+  },
+  'Utah': {
+    type: 'Point',
+    coordinates: [
+      -111.62109375,
+      39.26628442213067,
+    ],
+  },
+  'Vermont':  {
+    type: 'Point',
+    coordinates: [
+      -72.7294921875,
+      44.05601169578526,
+    ],
+  },
+  'Virgin Islands': {
+  },
+  'Virginia': {
+    type: 'Point',
+    coordinates: [
+      -78.6181640625,
+      37.68382032669382,
+    ],
+  },
+  'Washington' {
+    type: 'Point',
+    coordinates: [
+      -120.1025390625,
+      48.01932418480118,
+    ],
+  },
+  'West Virgin': {
+    type: 'Point',
+    coordinates: [
+      -80.7275390625,
+      38.7540832757914,
+    ],
+  },
+  'Wisconsin': {
+    type: 'Point',
+    coordinates: [
+      -89.7802734375,
+      44.71551373202135,
+    ],
+  },
+  'Wyoming':  {
+    type: 'Point',
+    coordinates: [
+      -107.5341796875,
+      43.54854811091286,
+    ],
+  },
+  'Puerto Rico': {
+    type: 'Point',
+    coordinates: [
+      -66.4577,
+      18.2246,
+    ],
+  },
+],

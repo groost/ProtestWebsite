@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+
+    margin: 100px auto 0; /* centers horizontally + leaves room for nav */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.message.show {
+    display: block;
+}
+
+body {
+  font-family: sans-serif;
+}
+/* Add a black background color to the top navigation */
+
+.topnav {
+  position: fixed;        /* sticks to top */
+  top: 0;
+  left: 0;
+  width: 100%;            /* full width */
+  height: 56px;
+  background-color: #333;
+  display: flex;          /* modern layout */
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+/* #map { */
+  /* height: calc(100vh - 56px); navbar height */
+  /* margin-top: 56px; */
+/* }  */
+
+
+#app {
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+/* Map takes remaining space */
+#map {
+  flex: 1;
+}
+
+/* Scrollable side pane */
+#sidebar {
+  width: 350px;
+  background: #f8f8f8;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.protest-card {
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.protest-card:hover {
+  background: #eee;
+}
+
+.modal {
+  display: none;          /* 👈 This is the key */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.modal.show {
+  display: block;
+}
+
+table {
+  background: #f8f8f8;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#chart-container {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 100px auto 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+#pie-chart {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+#legend {
+    text-align: center;
+}
+
+.legend-item {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.mini-pie {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.search-container {
+    position: relative;
+    margin-left: auto;
+    padding: 8px 16px;
+}
+
+#candidateSearch {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 250px;
+}
+
+.search-results {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 16px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 1001;
+    min-width: 300px;
+}
+
+.search-results.show {
+    display: block;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+.search-result-item:hover {
+    background: #f0f0f0;
+}
+
+.search-result-item .candidate-name {
+    font-weight: 600;
+}
+
+.search-result-item .candidate-info {
+    font-size: 12px;
+    color: #666;
+}

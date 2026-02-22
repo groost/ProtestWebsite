@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Map</a>
+            <a href="candidates.html">Candidates</a>
+            <a href="NGOs.html">NGOs</a>
+            <a class="active" href="signal_groupchats.html">Signal GroupChats</a>
+        </div>
+
+        <br><br><br>
+
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p class="subtitle">Fill out the form below and we'll get back to you soon!</p>
+
+            <div id="messageBox" class="message"></div>
+
+            <form id="contactForm">
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="code">Code *</label>
+                <input type="text" id="code" name="code" required>
+            </div>
+
+            <button type="submit" id="submitBtn">Send Message</button>
+            </form>
+        </div>
+
+        <script src="/js/init_groupchats.js" defer></script>
+        <div id="groupModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal">&times;</span>
+                <h2>Add Signal Groupchat</h2>
+                
+                <form id="groupForm">
+                <label>Signal Invite Link</label>
+                <input type="url" name="link" required>
+
+                <label>City</label>
+                <input type="text" name="city" required>
+                
+                <label>State</label>
+                <input type="text" name="state" required>
+                
+                <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </body>   
+</html>

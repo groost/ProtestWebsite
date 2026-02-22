@@ -1,0 +1,2618 @@
+[
+  {
+    "state": "Alabama",
+    "district": 1,
+    "lat": 31.071003976805326,
+    "lng": -87.78485850982263
+  },
+  {
+    "state": "Alabama",
+    "district": 2,
+    "lat": 31.706606470461868,
+    "lng": -86.07887859986724
+  },
+  {
+    "state": "Alabama",
+    "district": 3,
+    "lat": 33.16159358828497,
+    "lng": -85.75666742228235
+  },
+  {
+    "state": "Alabama",
+    "district": 4,
+    "lat": 34.17020452767617,
+    "lng": -87.24208028943872
+  },
+  {
+    "state": "Alabama",
+    "district": 5,
+    "lat": 34.738335664361884,
+    "lng": -86.59008563183677
+  },
+  {
+    "state": "Alabama",
+    "district": 6,
+    "lat": 33.36369560641515,
+    "lng": -86.77751891263756
+  },
+  {
+    "state": "Alabama",
+    "district": 7,
+    "lat": 32.46942652404357,
+    "lng": -87.61047269607657
+  },
+  {
+    "state": "Alaska",
+    "district": 0,
+    "lat": 64.21798079292559,
+    "lng": -152.21638911775275
+  },
+  {
+    "state": "Arizona",
+    "district": 1,
+    "lat": 33.70318405229857,
+    "lng": -111.65601304841698
+  },
+  {
+    "state": "Arizona",
+    "district": 2,
+    "lat": 35.129065641576204,
+    "lng": -111.06721862001886
+  },
+  {
+    "state": "Arizona",
+    "district": 3,
+    "lat": 33.42448330168607,
+    "lng": -112.12319585013732
+  },
+  {
+    "state": "Arizona",
+    "district": 4,
+    "lat": 33.38521022926353,
+    "lng": -111.85794564839534
+  },
+  {
+    "state": "Arizona",
+    "district": 5,
+    "lat": 33.292658435054015,
+    "lng": -111.63913599275712
+  },
+  {
+    "state": "Arizona",
+    "district": 6,
+    "lat": 32.37453616116797,
+    "lng": -109.96310190755935
+  },
+  {
+    "state": "Arizona",
+    "district": 7,
+    "lat": 32.264114253293215,
+    "lng": -112.30539768140922
+  },
+  {
+    "state": "Arizona",
+    "district": 8,
+    "lat": 33.7895832136026,
+    "lng": -112.19682654802975
+  },
+  {
+    "state": "Arizona",
+    "district": 9,
+    "lat": 34.6729922749136,
+    "lng": -113.70997464752534
+  },
+  {
+    "state": "Arkansas",
+    "district": 1,
+    "lat": 35.36439792917099,
+    "lng": -91.32701697878439
+  },
+  {
+    "state": "Arkansas",
+    "district": 2,
+    "lat": 35.16093372582981,
+    "lng": -92.36102365435603
+  },
+  {
+    "state": "Arkansas",
+    "district": 3,
+    "lat": 36.006387124224666,
+    "lng": -94.03026063367585
+  },
+  {
+    "state": "Arkansas",
+    "district": 4,
+    "lat": 34.21442742195574,
+    "lng": -93.15265663821803
+  },
+  {
+    "state": "California",
+    "district": 1,
+    "lat": 40.76642738758281,
+    "lng": -121.70803329171231
+  },
+  {
+    "state": "California",
+    "district": 2,
+    "lat": 40.13163693894318,
+    "lng": -123.43029330671249
+  },
+  {
+    "state": "California",
+    "district": 3,
+    "lat": 37.86190147171718,
+    "lng": -118.92248248450805
+  },
+  {
+    "state": "California",
+    "district": 4,
+    "lat": 38.72010950518589,
+    "lng": -122.32829078096134
+  },
+  {
+    "state": "California",
+    "district": 5,
+    "lat": 37.71067576243813,
+    "lng": -119.85737121968783
+  },
+  {
+    "state": "California",
+    "district": 6,
+    "lat": 38.63151193205858,
+    "lng": -121.37043353204943
+  },
+  {
+    "state": "California",
+    "district": 7,
+    "lat": 38.359871559924066,
+    "lng": -121.37747564691783
+  },
+  {
+    "state": "California",
+    "district": 8,
+    "lat": 38.12360203927084,
+    "lng": -122.08405810016819
+  },
+  {
+    "state": "California",
+    "district": 9,
+    "lat": 37.97617896683624,
+    "lng": -121.215499061772
+  },
+  {
+    "state": "California",
+    "district": 10,
+    "lat": 37.89327270970657,
+    "lng": -121.88317706361966
+  },
+  {
+    "state": "California",
+    "district": 11,
+    "lat": 37.76020180250075,
+    "lng": -122.44707899881034
+  },
+  {
+    "state": "California",
+    "district": 12,
+    "lat": 37.79036889043946,
+    "lng": -122.22630163421114
+  },
+  {
+    "state": "California",
+    "district": 13,
+    "lat": 36.923016796902886,
+    "lng": -120.58367127276385
+  },
+  {
+    "state": "California",
+    "district": 14,
+    "lat": 37.63503094080762,
+    "lng": -121.82380299235554
+  },
+  {
+    "state": "California",
+    "district": 15,
+    "lat": 37.575088628062375,
+    "lng": -122.3281347050253
+  },
+  {
+    "state": "California",
+    "district": 16,
+    "lat": 37.3476350343589,
+    "lng": -122.22441052978267
+  },
+  {
+    "state": "California",
+    "district": 17,
+    "lat": 37.423972559704744,
+    "lng": -121.96116708691966
+  },
+  {
+    "state": "California",
+    "district": 18,
+    "lat": 36.479154258184344,
+    "lng": -121.16326564219455
+  },
+  {
+    "state": "California",
+    "district": 19,
+    "lat": 36.19061668993877,
+    "lng": -121.26617547538625
+  },
+  {
+    "state": "California",
+    "district": 20,
+    "lat": 35.776582408847055,
+    "lng": -118.66820859272636
+  },
+  {
+    "state": "California",
+    "district": 21,
+    "lat": 36.5542183588799,
+    "lng": -119.47700487796659
+  },
+  {
+    "state": "California",
+    "district": 22,
+    "lat": 35.77492696803361,
+    "lng": -119.50240708308102
+  },
+  {
+    "state": "California",
+    "district": 23,
+    "lat": 34.91995049038132,
+    "lng": -116.44138866977462
+  },
+  {
+    "state": "California",
+    "district": 24,
+    "lat": 34.884335529347545,
+    "lng": -120.0826504189295
+  },
+  {
+    "state": "California",
+    "district": 25,
+    "lat": 33.65707728711196,
+    "lng": -115.32974509791211
+  },
+  {
+    "state": "California",
+    "district": 26,
+    "lat": 34.47517146517117,
+    "lng": -119.0566189919074
+  },
+  {
+    "state": "California",
+    "district": 27,
+    "lat": 34.60398580899142,
+    "lng": -118.37079712782298
+  },
+  {
+    "state": "California",
+    "district": 28,
+    "lat": 34.272350086356795,
+    "lng": -117.85305953415642
+  },
+  {
+    "state": "California",
+    "district": 29,
+    "lat": 34.287118190967476,
+    "lng": -118.39442317993667
+  },
+  {
+    "state": "California",
+    "district": 30,
+    "lat": 34.22892643614059,
+    "lng": -118.27897323702263
+  },
+  {
+    "state": "California",
+    "district": 31,
+    "lat": 34.14553217731156,
+    "lng": -117.89189371664185
+  },
+  {
+    "state": "California",
+    "district": 32,
+    "lat": 34.12311785696222,
+    "lng": -118.62702935520754
+  },
+  {
+    "state": "California",
+    "district": 33,
+    "lat": 34.11725822915745,
+    "lng": -117.34031770012385
+  },
+  {
+    "state": "California",
+    "district": 34,
+    "lat": 34.07138627999202,
+    "lng": -118.2173826157824
+  },
+  {
+    "state": "California",
+    "district": 35,
+    "lat": 34.03888252713335,
+    "lng": -117.61787239666542
+  },
+  {
+    "state": "California",
+    "district": 36,
+    "lat": 33.90058959365398,
+    "lng": -118.39714183110789
+  },
+  {
+    "state": "California",
+    "district": 37,
+    "lat": 34.01021711629997,
+    "lng": -118.32489905827248
+  },
+  {
+    "state": "California",
+    "district": 38,
+    "lat": 33.97241917624895,
+    "lng": -117.97469176502204
+  },
+  {
+    "state": "California",
+    "district": 39,
+    "lat": 33.907492057000184,
+    "lng": -117.31846674409883
+  },
+  {
+    "state": "California",
+    "district": 40,
+    "lat": 33.75401102471625,
+    "lng": -117.66890343409575
+  },
+  {
+    "state": "California",
+    "district": 41,
+    "lat": 33.7352297465794,
+    "lng": -116.9341271842555
+  },
+  {
+    "state": "California",
+    "district": 42,
+    "lat": 33.44804599510118,
+    "lng": -118.3415432964891
+  },
+  {
+    "state": "California",
+    "district": 43,
+    "lat": 33.910930012652216,
+    "lng": -118.30978123607315
+  },
+  {
+    "state": "California",
+    "district": 44,
+    "lat": 33.83348134526363,
+    "lng": -118.22837647660486
+  },
+  {
+    "state": "California",
+    "district": 45,
+    "lat": 33.82661826535467,
+    "lng": -117.97431516525968
+  },
+  {
+    "state": "California",
+    "district": 46,
+    "lat": 33.79464144976864,
+    "lng": -117.90838034425217
+  },
+  {
+    "state": "California",
+    "district": 47,
+    "lat": 33.65956234620113,
+    "lng": -117.85936563392829
+  },
+  {
+    "state": "California",
+    "district": 48,
+    "lat": 33.084454151148314,
+    "lng": -116.64262914119284
+  },
+  {
+    "state": "California",
+    "district": 49,
+    "lat": 33.3448124937629,
+    "lng": -117.41305113552914
+  },
+  {
+    "state": "California",
+    "district": 50,
+    "lat": 32.98294971059192,
+    "lng": -117.15537275647003
+  },
+  {
+    "state": "California",
+    "district": 51,
+    "lat": 32.836913154717216,
+    "lng": -117.08352344169349
+  },
+  {
+    "state": "California",
+    "district": 52,
+    "lat": 32.629151080048345,
+    "lng": -117.03634468268316
+  },
+  {
+    "state": "Colorado",
+    "district": 1,
+    "lat": 39.76157861749597,
+    "lng": -104.87613053706787
+  },
+  {
+    "state": "Colorado",
+    "district": 2,
+    "lat": 40.29446338495775,
+    "lng": -106.17213759356183
+  },
+  {
+    "state": "Colorado",
+    "district": 3,
+    "lat": 38.46766583512335,
+    "lng": -106.93160388048426
+  },
+  {
+    "state": "Colorado",
+    "district": 4,
+    "lat": 39.332621777711125,
+    "lng": -103.25770765073882
+  },
+  {
+    "state": "Colorado",
+    "district": 5,
+    "lat": 38.81410030133987,
+    "lng": -104.66379173601375
+  },
+  {
+    "state": "Colorado",
+    "district": 6,
+    "lat": 39.67935908483115,
+    "lng": -104.78204418096837
+  },
+  {
+    "state": "Colorado",
+    "district": 7,
+    "lat": 38.86319838747824,
+    "lng": -105.62986033843231
+  },
+  {
+    "state": "Colorado",
+    "district": 8,
+    "lat": 40.17760807819133,
+    "lng": -104.80263914602524
+  },
+  {
+    "state": "Connecticut",
+    "district": 1,
+    "lat": 41.81312131468066,
+    "lng": -72.8123810674411
+  },
+  {
+    "state": "Connecticut",
+    "district": 2,
+    "lat": 41.661011010922586,
+    "lng": -72.21038264575353
+  },
+  {
+    "state": "Connecticut",
+    "district": 3,
+    "lat": 41.37580667236149,
+    "lng": -72.89145197387128
+  },
+  {
+    "state": "Connecticut",
+    "district": 4,
+    "lat": 41.215226036587495,
+    "lng": -73.38532213147118
+  },
+  {
+    "state": "Connecticut",
+    "district": 5,
+    "lat": 41.6905210839272,
+    "lng": -73.21900686003308
+  },
+  {
+    "state": "Delaware",
+    "district": 0,
+    "lat": 38.9869278835348,
+    "lng": -75.50044357028902
+  },
+  {
+    "state": "District of Columbia",
+    "district": 98,
+    "lat": 38.90473393696881,
+    "lng": -77.01629384758077
+  },
+  {
+    "state": "Florida",
+    "district": 1,
+    "lat": 30.68677106331571,
+    "lng": -86.82780500707317
+  },
+  {
+    "state": "Florida",
+    "district": 2,
+    "lat": 30.370731626618266,
+    "lng": -84.7742439327861
+  },
+  {
+    "state": "Florida",
+    "district": 3,
+    "lat": 29.83473704294125,
+    "lng": -82.67852007372424
+  },
+  {
+    "state": "Florida",
+    "district": 4,
+    "lat": 30.324358528262582,
+    "lng": -81.80078648534666
+  },
+  {
+    "state": "Florida",
+    "district": 5,
+    "lat": 30.099326858611956,
+    "lng": -81.49261521155294
+  },
+  {
+    "state": "Florida",
+    "district": 6,
+    "lat": 29.33087587640706,
+    "lng": -81.60575909129362
+  },
+  {
+    "state": "Florida",
+    "district": 7,
+    "lat": 28.840972807957645,
+    "lng": -81.11403950298391
+  },
+  {
+    "state": "Florida",
+    "district": 8,
+    "lat": 28.143187225754566,
+    "lng": -80.71376336265205
+  },
+  {
+    "state": "Florida",
+    "district": 9,
+    "lat": 28.116006950728316,
+    "lng": -81.17137398741063
+  },
+  {
+    "state": "Florida",
+    "district": 10,
+    "lat": 28.541633931546574,
+    "lng": -81.29475225521671
+  },
+  {
+    "state": "Florida",
+    "district": 11,
+    "lat": 28.58408504909265,
+    "lng": -81.85483083754119
+  },
+  {
+    "state": "Florida",
+    "district": 12,
+    "lat": 28.586094166556276,
+    "lng": -82.44610426720935
+  },
+  {
+    "state": "Florida",
+    "district": 13,
+    "lat": 27.94132201168103,
+    "lng": -82.74109533155068
+  },
+  {
+    "state": "Florida",
+    "district": 14,
+    "lat": 27.93401514325517,
+    "lng": -82.52635566396167
+  },
+  {
+    "state": "Florida",
+    "district": 15,
+    "lat": 28.10941801069895,
+    "lng": -82.22194501451797
+  },
+  {
+    "state": "Florida",
+    "district": 16,
+    "lat": 27.580172471257853,
+    "lng": -82.28661039469421
+  },
+  {
+    "state": "Florida",
+    "district": 17,
+    "lat": 26.981476757687094,
+    "lng": -82.04394288596575
+  },
+  {
+    "state": "Florida",
+    "district": 18,
+    "lat": 27.271759616725426,
+    "lng": -81.38792522720551
+  },
+  {
+    "state": "Florida",
+    "district": 19,
+    "lat": 26.464689631216007,
+    "lng": -81.85441074234325
+  },
+  {
+    "state": "Florida",
+    "district": 20,
+    "lat": 26.449961309482692,
+    "lng": -80.57982467327616
+  },
+  {
+    "state": "Florida",
+    "district": 21,
+    "lat": 27.133839158029662,
+    "lng": -80.40864502550518
+  },
+  {
+    "state": "Florida",
+    "district": 22,
+    "lat": 26.566573594019346,
+    "lng": -80.15833669307152
+  },
+  {
+    "state": "Florida",
+    "district": 23,
+    "lat": 26.29076669112572,
+    "lng": -80.1694848705275
+  },
+  {
+    "state": "Florida",
+    "district": 24,
+    "lat": 25.895460201250888,
+    "lng": -80.19363550308975
+  },
+  {
+    "state": "Florida",
+    "district": 25,
+    "lat": 26.04842190821205,
+    "lng": -80.29406205852737
+  },
+  {
+    "state": "Florida",
+    "district": 26,
+    "lat": 26.046906249591554,
+    "lng": -81.15698997613696
+  },
+  {
+    "state": "Florida",
+    "district": 27,
+    "lat": 25.693135056741767,
+    "lng": -80.29757027078078
+  },
+  {
+    "state": "Florida",
+    "district": 28,
+    "lat": 25.39619109870026,
+    "lng": -80.87326366568327
+  },
+  {
+    "state": "Georgia",
+    "district": 1,
+    "lat": 31.425494367894608,
+    "lng": -81.85077841169775
+  },
+  {
+    "state": "Georgia",
+    "district": 2,
+    "lat": 31.77000981279273,
+    "lng": -84.40057634800802
+  },
+  {
+    "state": "Georgia",
+    "district": 3,
+    "lat": 33.204942307289556,
+    "lng": -84.77513655658676
+  },
+  {
+    "state": "Georgia",
+    "district": 4,
+    "lat": 33.709910602837745,
+    "lng": -84.09983412343742
+  },
+  {
+    "state": "Georgia",
+    "district": 5,
+    "lat": 33.74679388459603,
+    "lng": -84.40104750587952
+  },
+  {
+    "state": "Georgia",
+    "district": 6,
+    "lat": 34.24577577626549,
+    "lng": -84.23194817507238
+  },
+  {
+    "state": "Georgia",
+    "district": 7,
+    "lat": 33.92257738444521,
+    "lng": -84.05966597137221
+  },
+  {
+    "state": "Georgia",
+    "district": 8,
+    "lat": 31.736508197561708,
+    "lng": -83.29707882751269
+  },
+  {
+    "state": "Georgia",
+    "district": 9,
+    "lat": 34.603382736729735,
+    "lng": -83.76503426399356
+  },
+  {
+    "state": "Georgia",
+    "district": 10,
+    "lat": 33.68054712455183,
+    "lng": -83.36270248376645
+  },
+  {
+    "state": "Georgia",
+    "district": 11,
+    "lat": 34.243650539519585,
+    "lng": -84.65243211329359
+  },
+  {
+    "state": "Georgia",
+    "district": 12,
+    "lat": 32.77642173877009,
+    "lng": -82.28460105903933
+  },
+  {
+    "state": "Georgia",
+    "district": 13,
+    "lat": 33.61055957532494,
+    "lng": -84.50112340575495
+  },
+  {
+    "state": "Georgia",
+    "district": 14,
+    "lat": 34.47705787509637,
+    "lng": -85.09793976491197
+  },
+  {
+    "state": "Hawaii",
+    "district": 1,
+    "lat": 21.36774281012818,
+    "lng": -157.90314916524326
+  },
+  {
+    "state": "Hawaii",
+    "district": 2,
+    "lat": 20.214198094323528,
+    "lng": -156.305322821139
+  },
+  {
+    "state": "Idaho",
+    "district": 1,
+    "lat": 45.36406007160794,
+    "lng": -116.03257073384549
+  },
+  {
+    "state": "Idaho",
+    "district": 2,
+    "lat": 43.46864709089287,
+    "lng": -113.36306669673593
+  },
+  {
+    "state": "Illinois",
+    "district": 1,
+    "lat": 41.41414314929009,
+    "lng": -87.95262974760003
+  },
+  {
+    "state": "Illinois",
+    "district": 2,
+    "lat": 40.774275393697465,
+    "lng": -87.9517050921957
+  },
+  {
+    "state": "Illinois",
+    "district": 3,
+    "lat": 41.92464477291135,
+    "lng": -88.0620680649274
+  },
+  {
+    "state": "Illinois",
+    "district": 4,
+    "lat": 41.830495684378484,
+    "lng": -87.80594406222198
+  },
+  {
+    "state": "Illinois",
+    "district": 5,
+    "lat": 42.082456163536854,
+    "lng": -87.98456798975927
+  },
+  {
+    "state": "Illinois",
+    "district": 6,
+    "lat": 41.737424140098234,
+    "lng": -87.89184935761143
+  },
+  {
+    "state": "Illinois",
+    "district": 7,
+    "lat": 41.86011824871449,
+    "lng": -87.74704449213928
+  },
+  {
+    "state": "Illinois",
+    "district": 8,
+    "lat": 42.02982557248241,
+    "lng": -88.19902289560648
+  },
+  {
+    "state": "Illinois",
+    "district": 9,
+    "lat": 42.13755845450735,
+    "lng": -87.9987086246512
+  },
+  {
+    "state": "Illinois",
+    "district": 10,
+    "lat": 42.35398489965102,
+    "lng": -88.05282646950211
+  },
+  {
+    "state": "Illinois",
+    "district": 11,
+    "lat": 42.068476556565905,
+    "lng": -88.46375521042012
+  },
+  {
+    "state": "Illinois",
+    "district": 12,
+    "lat": 38.29953188029021,
+    "lng": -88.76498734853527
+  },
+  {
+    "state": "Illinois",
+    "district": 13,
+    "lat": 39.43504088926171,
+    "lng": -89.55124701964833
+  },
+  {
+    "state": "Illinois",
+    "district": 14,
+    "lat": 41.568254685939834,
+    "lng": -88.73699906622853
+  },
+  {
+    "state": "Illinois",
+    "district": 15,
+    "lat": 39.82336961144655,
+    "lng": -89.77248832196221
+  },
+  {
+    "state": "Illinois",
+    "district": 16,
+    "lat": 41.403721997244325,
+    "lng": -89.32096238070206
+  },
+  {
+    "state": "Illinois",
+    "district": 17,
+    "lat": 41.26588935918657,
+    "lng": -90.02604867694717
+  },
+  {
+    "state": "Indiana",
+    "district": 1,
+    "lat": 41.47032543159872,
+    "lng": -87.16689401741307
+  },
+  {
+    "state": "Indiana",
+    "district": 2,
+    "lat": 41.21443726226497,
+    "lng": -86.23491662468868
+  },
+  {
+    "state": "Indiana",
+    "district": 3,
+    "lat": 41.04682933276167,
+    "lng": -85.21105651249476
+  },
+  {
+    "state": "Indiana",
+    "district": 4,
+    "lat": 40.32980597280978,
+    "lng": -86.85912506729746
+  },
+  {
+    "state": "Indiana",
+    "district": 5,
+    "lat": 40.28336482077324,
+    "lng": -85.79928797050636
+  },
+  {
+    "state": "Indiana",
+    "district": 6,
+    "lat": 39.68762153156818,
+    "lng": -85.51395323946895
+  },
+  {
+    "state": "Indiana",
+    "district": 7,
+    "lat": 39.82523471220812,
+    "lng": -86.13820941603734
+  },
+  {
+    "state": "Indiana",
+    "district": 8,
+    "lat": 38.752993715891506,
+    "lng": -87.14402902562374
+  },
+  {
+    "state": "Indiana",
+    "district": 9,
+    "lat": 38.88803393424867,
+    "lng": -85.77052465625954
+  },
+  {
+    "state": "Iowa",
+    "district": 1,
+    "lat": 41.4617295986932,
+    "lng": -91.74194370058669
+  },
+  {
+    "state": "Iowa",
+    "district": 2,
+    "lat": 42.68404894284896,
+    "lng": -92.18063396429574
+  },
+  {
+    "state": "Iowa",
+    "district": 3,
+    "lat": 41.141772116318045,
+    "lng": -93.97160268463064
+  },
+  {
+    "state": "Iowa",
+    "district": 4,
+    "lat": 42.47018700741214,
+    "lng": -94.95128936553091
+  },
+  {
+    "state": "Kansas",
+    "district": 1,
+    "lat": 38.77265166252354,
+    "lng": -99.53045204966247
+  },
+  {
+    "state": "Kansas",
+    "district": 2,
+    "lat": 38.412416634803094,
+    "lng": -95.73305723753192
+  },
+  {
+    "state": "Kansas",
+    "district": 3,
+    "lat": 38.556590498115064,
+    "lng": -95.06110938107909
+  },
+  {
+    "state": "Kansas",
+    "district": 4,
+    "lat": 37.55394272698695,
+    "lng": -97.76213960178345
+  },
+  {
+    "state": "Kentucky",
+    "district": 1,
+    "lat": 37.10116414318087,
+    "lng": -87.06072599883093
+  },
+  {
+    "state": "Kentucky",
+    "district": 2,
+    "lat": 37.470589850122394,
+    "lng": -86.35396670215636
+  },
+  {
+    "state": "Kentucky",
+    "district": 3,
+    "lat": 38.18976971970835,
+    "lng": -85.70041379506038
+  },
+  {
+    "state": "Kentucky",
+    "district": 4,
+    "lat": 38.528451329877655,
+    "lng": -84.45447567203938
+  },
+  {
+    "state": "Kentucky",
+    "district": 5,
+    "lat": 37.39117674146008,
+    "lng": -83.52472581627437
+  },
+  {
+    "state": "Kentucky",
+    "district": 6,
+    "lat": 37.99882092455289,
+    "lng": -84.26724922465051
+  },
+  {
+    "state": "Louisiana",
+    "district": 1,
+    "lat": 29.785215392887974,
+    "lng": -90.01105017892222
+  },
+  {
+    "state": "Louisiana",
+    "district": 2,
+    "lat": 30.037257222917674,
+    "lng": -90.61239433772438
+  },
+  {
+    "state": "Louisiana",
+    "district": 3,
+    "lat": 30.028165260647132,
+    "lng": -92.54998337036504
+  },
+  {
+    "state": "Louisiana",
+    "district": 4,
+    "lat": 31.746803713654085,
+    "lng": -93.12010922192435
+  },
+  {
+    "state": "Louisiana",
+    "district": 5,
+    "lat": 31.73595730854261,
+    "lng": -91.76739840233942
+  },
+  {
+    "state": "Louisiana",
+    "district": 6,
+    "lat": 30.045576886507828,
+    "lng": -90.97306595963693
+  },
+  {
+    "state": "Maine",
+    "district": 1,
+    "lat": 43.88425926822175,
+    "lng": -70.09016971687177
+  },
+  {
+    "state": "Maine",
+    "district": 2,
+    "lat": 45.550754509199464,
+    "lng": -69.12265041152335
+  },
+  {
+    "state": "Maryland",
+    "district": 1,
+    "lat": 38.81835777350987,
+    "lng": -75.90155873707506
+  },
+  {
+    "state": "Maryland",
+    "district": 2,
+    "lat": 39.522626061244615,
+    "lng": -76.84992325736576
+  },
+  {
+    "state": "Maryland",
+    "district": 3,
+    "lat": 39.190214373129976,
+    "lng": -76.78268024826876
+  },
+  {
+    "state": "Maryland",
+    "district": 4,
+    "lat": 38.92427196352458,
+    "lng": -76.91172092472083
+  },
+  {
+    "state": "Maryland",
+    "district": 5,
+    "lat": 38.56375533807602,
+    "lng": -76.75521694136546
+  },
+  {
+    "state": "Maryland",
+    "district": 6,
+    "lat": 39.51457991079999,
+    "lng": -78.20802468286611
+  },
+  {
+    "state": "Maryland",
+    "district": 7,
+    "lat": 39.28851633594189,
+    "lng": -76.60635540754147
+  },
+  {
+    "state": "Maryland",
+    "district": 8,
+    "lat": 39.09776765213924,
+    "lng": -77.12399570935652
+  },
+  {
+    "state": "Massachusetts",
+    "district": 1,
+    "lat": 42.283297451141635,
+    "lng": -72.80545299567615
+  },
+  {
+    "state": "Massachusetts",
+    "district": 2,
+    "lat": 42.42728692532662,
+    "lng": -72.2055640403957
+  },
+  {
+    "state": "Massachusetts",
+    "district": 3,
+    "lat": 42.58616304682337,
+    "lng": -71.5875847574044
+  },
+  {
+    "state": "Massachusetts",
+    "district": 4,
+    "lat": 41.97244996671596,
+    "lng": -71.23522855390179
+  },
+  {
+    "state": "Massachusetts",
+    "district": 5,
+    "lat": 42.38708800219444,
+    "lng": -71.27425771505743
+  },
+  {
+    "state": "Massachusetts",
+    "district": 6,
+    "lat": 42.641112444787005,
+    "lng": -70.9732140044737
+  },
+  {
+    "state": "Massachusetts",
+    "district": 7,
+    "lat": 42.30358723679927,
+    "lng": -71.08247825387956
+  },
+  {
+    "state": "Massachusetts",
+    "district": 8,
+    "lat": 42.155336048196524,
+    "lng": -71.0540732520659
+  },
+  {
+    "state": "Massachusetts",
+    "district": 9,
+    "lat": 41.75621910351474,
+    "lng": -70.61098780310397
+  },
+  {
+    "state": "Michigan",
+    "district": 1,
+    "lat": 45.76290144207505,
+    "lng": -86.24690723752303
+  },
+  {
+    "state": "Michigan",
+    "district": 2,
+    "lat": 43.60903083208284,
+    "lng": -85.39748581864433
+  },
+  {
+    "state": "Michigan",
+    "district": 3,
+    "lat": 43.02160422948092,
+    "lng": -85.84408484505146
+  },
+  {
+    "state": "Michigan",
+    "district": 4,
+    "lat": 42.439054847878,
+    "lng": -85.85386143502342
+  },
+  {
+    "state": "Michigan",
+    "district": 5,
+    "lat": 41.992817407638306,
+    "lng": -84.87105691735078
+  },
+  {
+    "state": "Michigan",
+    "district": 6,
+    "lat": 42.247208087725255,
+    "lng": -83.71587256585703
+  },
+  {
+    "state": "Michigan",
+    "district": 7,
+    "lat": 42.73422094924094,
+    "lng": -84.33693428392031
+  },
+  {
+    "state": "Michigan",
+    "district": 8,
+    "lat": 43.3663449175056,
+    "lng": -83.98127740113652
+  },
+  {
+    "state": "Michigan",
+    "district": 9,
+    "lat": 43.28558587601255,
+    "lng": -83.0474195406386
+  },
+  {
+    "state": "Michigan",
+    "district": 10,
+    "lat": 42.58678252192111,
+    "lng": -83.00477293669464
+  },
+  {
+    "state": "Michigan",
+    "district": 11,
+    "lat": 42.581506496812295,
+    "lng": -83.335289062678
+  },
+  {
+    "state": "Michigan",
+    "district": 12,
+    "lat": 42.38613744192305,
+    "lng": -83.28592162158084
+  },
+  {
+    "state": "Michigan",
+    "district": 13,
+    "lat": 42.31258816645283,
+    "lng": -83.15199117331623
+  },
+  {
+    "state": "Minnesota",
+    "district": 1,
+    "lat": 43.905532560082726,
+    "lng": -93.53014617895712
+  },
+  {
+    "state": "Minnesota",
+    "district": 2,
+    "lat": 44.553712440429486,
+    "lng": -93.37352541889943
+  },
+  {
+    "state": "Minnesota",
+    "district": 3,
+    "lat": 45.023521911636166,
+    "lng": -93.5089275056447
+  },
+  {
+    "state": "Minnesota",
+    "district": 4,
+    "lat": 45.003613709302535,
+    "lng": -92.9903151689375
+  },
+  {
+    "state": "Minnesota",
+    "district": 5,
+    "lat": 44.98332541948995,
+    "lng": -93.29187753342691
+  },
+  {
+    "state": "Minnesota",
+    "district": 6,
+    "lat": 45.30290973059872,
+    "lng": -93.83282242771736
+  },
+  {
+    "state": "Minnesota",
+    "district": 7,
+    "lat": 46.24138327658599,
+    "lng": -95.69518271639978
+  },
+  {
+    "state": "Minnesota",
+    "district": 8,
+    "lat": 47.40094492546438,
+    "lng": -93.42269926601897
+  },
+  {
+    "state": "Mississippi",
+    "district": 1,
+    "lat": 34.263429714691725,
+    "lng": -89.0050713986936
+  },
+  {
+    "state": "Mississippi",
+    "district": 2,
+    "lat": 32.949047711760244,
+    "lng": -90.44189228070736
+  },
+  {
+    "state": "Mississippi",
+    "district": 3,
+    "lat": 32.18384547328162,
+    "lng": -89.40054718945647
+  },
+  {
+    "state": "Mississippi",
+    "district": 4,
+    "lat": 31.015177041198125,
+    "lng": -89.05006440344324
+  },
+  {
+    "state": "Missouri",
+    "district": 1,
+    "lat": 38.725002116051996,
+    "lng": -90.30578423309171
+  },
+  {
+    "state": "Missouri",
+    "district": 2,
+    "lat": 38.53311998793965,
+    "lng": -90.95973284763419
+  },
+  {
+    "state": "Missouri",
+    "district": 3,
+    "lat": 38.46891299083816,
+    "lng": -91.74405839950388
+  },
+  {
+    "state": "Missouri",
+    "district": 4,
+    "lat": 38.236294414349565,
+    "lng": -93.4701505916535
+  },
+  {
+    "state": "Missouri",
+    "district": 5,
+    "lat": 39.0281183321308,
+    "lng": -94.46259122043294
+  },
+  {
+    "state": "Missouri",
+    "district": 6,
+    "lat": 39.86944554555598,
+    "lng": -93.18909766043987
+  },
+  {
+    "state": "Missouri",
+    "district": 7,
+    "lat": 36.9241079965298,
+    "lng": -93.70914697845554
+  },
+  {
+    "state": "Missouri",
+    "district": 8,
+    "lat": 37.121877880163005,
+    "lng": -90.91627449517252
+  },
+  {
+    "state": "Montana",
+    "district": 1,
+    "lat": 46.94413038083799,
+    "lng": -113.52047555991578
+  },
+  {
+    "state": "Montana",
+    "district": 2,
+    "lat": 47.06766822985775,
+    "lng": -108.16127393706829
+  },
+  {
+    "state": "Nebraska",
+    "district": 1,
+    "lat": 41.37835312978248,
+    "lng": -96.98344407999487
+  },
+  {
+    "state": "Nebraska",
+    "district": 2,
+    "lat": 41.22965997198125,
+    "lng": -96.45278586790175
+  },
+  {
+    "state": "Nebraska",
+    "district": 3,
+    "lat": 41.54524429195936,
+    "lng": -100.11410059487596
+  },
+  {
+    "state": "Nevada",
+    "district": 1,
+    "lat": 35.85053133455829,
+    "lng": -114.95460359955473
+  },
+  {
+    "state": "Nevada",
+    "district": 2,
+    "lat": 40.47648262652512,
+    "lng": -116.99017015780495
+  },
+  {
+    "state": "Nevada",
+    "district": 3,
+    "lat": 35.70556044285882,
+    "lng": -115.20134417988908
+  },
+  {
+    "state": "Nevada",
+    "district": 4,
+    "lat": 37.79623895427778,
+    "lng": -116.22135223241848
+  },
+  {
+    "state": "New Hampshire",
+    "district": 1,
+    "lat": 43.41049777666913,
+    "lng": -71.19362579441177
+  },
+  {
+    "state": "New Hampshire",
+    "district": 2,
+    "lat": 43.7762220073496,
+    "lng": -71.70408526066907
+  },
+  {
+    "state": "New Jersey",
+    "district": 1,
+    "lat": 39.784153219556835,
+    "lng": -75.00922443509107
+  },
+  {
+    "state": "New Jersey",
+    "district": 2,
+    "lat": 39.47578617585704,
+    "lng": -74.88608968366265
+  },
+  {
+    "state": "New Jersey",
+    "district": 3,
+    "lat": 39.97452933429513,
+    "lng": -74.61215337917483
+  },
+  {
+    "state": "New Jersey",
+    "district": 4,
+    "lat": 40.06922731830765,
+    "lng": -74.24432799641478
+  },
+  {
+    "state": "New Jersey",
+    "district": 5,
+    "lat": 41.11563678333439,
+    "lng": -74.44060034522603
+  },
+  {
+    "state": "New Jersey",
+    "district": 6,
+    "lat": 40.46116323147843,
+    "lng": -74.24824077112486
+  },
+  {
+    "state": "New Jersey",
+    "district": 7,
+    "lat": 40.74154524662236,
+    "lng": -74.82671625080813
+  },
+  {
+    "state": "New Jersey",
+    "district": 8,
+    "lat": 40.72245498240952,
+    "lng": -74.10786136142777
+  },
+  {
+    "state": "New Jersey",
+    "district": 9,
+    "lat": 40.89583713488629,
+    "lng": -74.14058686745841
+  },
+  {
+    "state": "New Jersey",
+    "district": 10,
+    "lat": 40.72705336205515,
+    "lng": -74.2270604533151
+  },
+  {
+    "state": "New Jersey",
+    "district": 11,
+    "lat": 40.877515851975026,
+    "lng": -74.41348999768257
+  },
+  {
+    "state": "New Jersey",
+    "district": 12,
+    "lat": 40.392611076468526,
+    "lng": -74.5808275965901
+  },
+  {
+    "state": "New Mexico",
+    "district": 1,
+    "lat": 34.27763988203701,
+    "lng": -105.23672362884632
+  },
+  {
+    "state": "New Mexico",
+    "district": 2,
+    "lat": 33.19900284534009,
+    "lng": -107.01642765108515
+  },
+  {
+    "state": "New Mexico",
+    "district": 3,
+    "lat": 35.63621962085092,
+    "lng": -105.52864178002349
+  },
+  {
+    "state": "New York",
+    "district": 1,
+    "lat": 40.9290438386332,
+    "lng": -72.71976155577366
+  },
+  {
+    "state": "New York",
+    "district": 2,
+    "lat": 40.74535110722695,
+    "lng": -73.10385366314003
+  },
+  {
+    "state": "New York",
+    "district": 3,
+    "lat": 40.79868752501552,
+    "lng": -73.59038357182723
+  },
+  {
+    "state": "New York",
+    "district": 4,
+    "lat": 40.65832906257366,
+    "lng": -73.61463070818078
+  },
+  {
+    "state": "New York",
+    "district": 5,
+    "lat": 40.65065458929265,
+    "lng": -73.79860245095716
+  },
+  {
+    "state": "New York",
+    "district": 6,
+    "lat": 40.738379600301016,
+    "lng": -73.82686461268158
+  },
+  {
+    "state": "New York",
+    "district": 7,
+    "lat": 40.71237450647563,
+    "lng": -73.91872247761948
+  },
+  {
+    "state": "New York",
+    "district": 8,
+    "lat": 40.623108283177665,
+    "lng": -73.90372979244263
+  },
+  {
+    "state": "New York",
+    "district": 9,
+    "lat": 40.63859844751721,
+    "lng": -73.95082947632451
+  },
+  {
+    "state": "New York",
+    "district": 10,
+    "lat": 40.68335196008022,
+    "lng": -73.99594655671488
+  },
+  {
+    "state": "New York",
+    "district": 11,
+    "lat": 40.58410654594346,
+    "lng": -74.13834875257275
+  },
+  {
+    "state": "New York",
+    "district": 12,
+    "lat": 40.766198808564766,
+    "lng": -73.97565925903474
+  },
+  {
+    "state": "New York",
+    "district": 13,
+    "lat": 40.83493986290612,
+    "lng": -73.93185738723786
+  },
+  {
+    "state": "New York",
+    "district": 14,
+    "lat": 40.81033536753815,
+    "lng": -73.85493175053887
+  },
+  {
+    "state": "New York",
+    "district": 15,
+    "lat": 40.862376218985446,
+    "lng": -73.89198901996852
+  },
+  {
+    "state": "New York",
+    "district": 16,
+    "lat": 40.98691574812551,
+    "lng": -73.79258230734901
+  },
+  {
+    "state": "New York",
+    "district": 17,
+    "lat": 41.30837490306378,
+    "lng": -73.80102522941156
+  },
+  {
+    "state": "New York",
+    "district": 18,
+    "lat": 41.62677284392423,
+    "lng": -74.07815059103231
+  },
+  {
+    "state": "New York",
+    "district": 19,
+    "lat": 42.217961696538275,
+    "lng": -75.1220544848137
+  },
+  {
+    "state": "New York",
+    "district": 20,
+    "lat": 42.89659903241339,
+    "lng": -73.9226593105883
+  },
+  {
+    "state": "New York",
+    "district": 21,
+    "lat": 43.85729362267795,
+    "lng": -74.46573169876974
+  },
+  {
+    "state": "New York",
+    "district": 22,
+    "lat": 43.094279006273794,
+    "lng": -75.72031696101807
+  },
+  {
+    "state": "New York",
+    "district": 23,
+    "lat": 42.3150950117838,
+    "lng": -78.19590835144886
+  },
+  {
+    "state": "New York",
+    "district": 24,
+    "lat": 43.1143843486163,
+    "lng": -77.09187453835204
+  },
+  {
+    "state": "New York",
+    "district": 25,
+    "lat": 43.18165318584023,
+    "lng": -77.80411847668967
+  },
+  {
+    "state": "New York",
+    "district": 26,
+    "lat": 43.08772912315892,
+    "lng": -78.86164294581535
+  },
+  {
+    "state": "North Carolina",
+    "district": 1,
+    "lat": 36.06359337178611,
+    "lng": -77.35356333722905
+  },
+  {
+    "state": "North Carolina",
+    "district": 2,
+    "lat": 35.874460516390364,
+    "lng": -78.59552120649477
+  },
+  {
+    "state": "North Carolina",
+    "district": 3,
+    "lat": 35.239184577339806,
+    "lng": -77.1569450415236
+  },
+  {
+    "state": "North Carolina",
+    "district": 4,
+    "lat": 36.18314240373756,
+    "lng": -78.99451046367409
+  },
+  {
+    "state": "North Carolina",
+    "district": 5,
+    "lat": 36.22398830986819,
+    "lng": -81.07668934626396
+  },
+  {
+    "state": "North Carolina",
+    "district": 6,
+    "lat": 36.25954014016593,
+    "lng": -79.69615971588242
+  },
+  {
+    "state": "North Carolina",
+    "district": 7,
+    "lat": 34.47126723198145,
+    "lng": -78.50334556818308
+  },
+  {
+    "state": "North Carolina",
+    "district": 8,
+    "lat": 35.30541855760007,
+    "lng": -80.23370954402297
+  },
+  {
+    "state": "North Carolina",
+    "district": 9,
+    "lat": 35.39177388809983,
+    "lng": -79.41517824543304
+  },
+  {
+    "state": "North Carolina",
+    "district": 10,
+    "lat": 35.621350436674305,
+    "lng": -81.34619846750468
+  },
+  {
+    "state": "North Carolina",
+    "district": 11,
+    "lat": 35.439772219588704,
+    "lng": -82.94269312137317
+  },
+  {
+    "state": "North Carolina",
+    "district": 12,
+    "lat": 35.34847000499538,
+    "lng": -80.7541854258994
+  },
+  {
+    "state": "North Carolina",
+    "district": 13,
+    "lat": 35.49768207348228,
+    "lng": -78.48144824226347
+  },
+  {
+    "state": "North Carolina",
+    "district": 14,
+    "lat": 35.212022318141344,
+    "lng": -81.01067841369897
+  },
+  {
+    "state": "North Dakota",
+    "district": 0,
+    "lat": 47.446330756405594,
+    "lng": -100.46931093805262
+  },
+  {
+    "state": "Ohio",
+    "district": 1,
+    "lat": 39.33901972813992,
+    "lng": -84.25504335095259
+  },
+  {
+    "state": "Ohio",
+    "district": 2,
+    "lat": 39.10305544578323,
+    "lng": -83.06091275528458
+  },
+  {
+    "state": "Ohio",
+    "district": 3,
+    "lat": 40.03472766076802,
+    "lng": -82.92157824085042
+  },
+  {
+    "state": "Ohio",
+    "district": 4,
+    "lat": 40.536052853692816,
+    "lng": -83.37243106595768
+  },
+  {
+    "state": "Ohio",
+    "district": 5,
+    "lat": 41.049277340016445,
+    "lng": -83.59049391457262
+  },
+  {
+    "state": "Ohio",
+    "district": 6,
+    "lat": 40.2537812015055,
+    "lng": -81.10318682936325
+  },
+  {
+    "state": "Ohio",
+    "district": 7,
+    "lat": 41.00565291653442,
+    "lng": -81.873891165651
+  },
+  {
+    "state": "Ohio",
+    "district": 8,
+    "lat": 39.749519191155244,
+    "lng": -84.60325647898333
+  },
+  {
+    "state": "Ohio",
+    "district": 9,
+    "lat": 41.48359424513669,
+    "lng": -83.77495518836203
+  },
+  {
+    "state": "Ohio",
+    "district": 10,
+    "lat": 39.74287227119367,
+    "lng": -84.06709102701775
+  },
+  {
+    "state": "Ohio",
+    "district": 11,
+    "lat": 41.483575967987974,
+    "lng": -81.57457150358765
+  },
+  {
+    "state": "Ohio",
+    "district": 12,
+    "lat": 40.01141687044948,
+    "lng": -82.09300307888934
+  },
+  {
+    "state": "Ohio",
+    "district": 13,
+    "lat": 41.036576365047,
+    "lng": -81.51059282343992
+  },
+  {
+    "state": "Ohio",
+    "district": 14,
+    "lat": 41.46461089140226,
+    "lng": -80.95745635828862
+  },
+  {
+    "state": "Ohio",
+    "district": 15,
+    "lat": 39.913775225085956,
+    "lng": -83.62214810315106
+  },
+  {
+    "state": "Oklahoma",
+    "district": 1,
+    "lat": 36.05729363016334,
+    "lng": -95.85550498357054
+  },
+  {
+    "state": "Oklahoma",
+    "district": 2,
+    "lat": 35.193639269868875,
+    "lng": -95.45988802667023
+  },
+  {
+    "state": "Oklahoma",
+    "district": 3,
+    "lat": 36.137288657292075,
+    "lng": -98.92271699440873
+  },
+  {
+    "state": "Oklahoma",
+    "district": 4,
+    "lat": 34.57638383131821,
+    "lng": -97.75075096382939
+  },
+  {
+    "state": "Oklahoma",
+    "district": 5,
+    "lat": 35.488684960454485,
+    "lng": -97.03242425785253
+  },
+  {
+    "state": "Oregon",
+    "district": 1,
+    "lat": 45.71851033873088,
+    "lng": -123.43120520869294
+  },
+  {
+    "state": "Oregon",
+    "district": 2,
+    "lat": 43.782102167440584,
+    "lng": -119.71703549858167
+  },
+  {
+    "state": "Oregon",
+    "district": 3,
+    "lat": 45.45665979496784,
+    "lng": -121.96916216862641
+  },
+  {
+    "state": "Oregon",
+    "district": 4,
+    "lat": 43.648572681243415,
+    "lng": -123.442957618338
+  },
+  {
+    "state": "Oregon",
+    "district": 5,
+    "lat": 44.61640025257207,
+    "lng": -122.24459136305231
+  },
+  {
+    "state": "Oregon",
+    "district": 6,
+    "lat": 45.06483715954335,
+    "lng": -123.26246353613875
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 1,
+    "lat": 40.33360416617388,
+    "lng": -75.14095245458945
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 2,
+    "lat": 40.044058575805025,
+    "lng": -75.06196136302115
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 3,
+    "lat": 40.00235517045654,
+    "lng": -75.1974229657573
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 4,
+    "lat": 40.314832613569585,
+    "lng": -75.58083685301361
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 5,
+    "lat": 39.93304910489892,
+    "lng": -75.37492030681915
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 6,
+    "lat": 40.02834467509877,
+    "lng": -75.77745157599237
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 7,
+    "lat": 40.77471610438763,
+    "lng": -75.53136090507599
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 8,
+    "lat": 41.35699614289437,
+    "lng": -75.40574379871664
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 9,
+    "lat": 41.24879277051781,
+    "lng": -76.32230723487532
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 10,
+    "lat": 40.24469128000258,
+    "lng": -76.92085193138747
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 11,
+    "lat": 39.96843093475711,
+    "lng": -76.39092969051228
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 12,
+    "lat": 40.36048348183917,
+    "lng": -79.81983308189814
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 13,
+    "lat": 40.239895825528066,
+    "lng": -77.95526353941658
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 14,
+    "lat": 40.129702219164,
+    "lng": -79.57857629492487
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 15,
+    "lat": 41.35020315952008,
+    "lng": -78.31089185236962
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 16,
+    "lat": 41.44557506576634,
+    "lng": -80.08818467295097
+  },
+  {
+    "state": "Pennsylvania",
+    "district": 17,
+    "lat": 40.60357891987562,
+    "lng": -80.18730631199558
+  },
+  {
+    "state": "Rhode Island",
+    "district": 1,
+    "lat": 41.75954664305294,
+    "lng": -71.35853797331775
+  },
+  {
+    "state": "Rhode Island",
+    "district": 2,
+    "lat": 41.64653288555324,
+    "lng": -71.62342465213796
+  },
+  {
+    "state": "South Carolina",
+    "district": 1,
+    "lat": 32.872771216349406,
+    "lng": -80.16537954707336
+  },
+  {
+    "state": "South Carolina",
+    "district": 2,
+    "lat": 33.64059481458647,
+    "lng": -81.36208409092094
+  },
+  {
+    "state": "South Carolina",
+    "district": 3,
+    "lat": 34.351908943035575,
+    "lng": -82.28369568653702
+  },
+  {
+    "state": "South Carolina",
+    "district": 4,
+    "lat": 34.930490656385366,
+    "lng": -82.18768302213816
+  },
+  {
+    "state": "South Carolina",
+    "district": 5,
+    "lat": 34.56966870159225,
+    "lng": -81.00411332335061
+  },
+  {
+    "state": "South Carolina",
+    "district": 6,
+    "lat": 33.243610668561914,
+    "lng": -80.5843678368829
+  },
+  {
+    "state": "South Carolina",
+    "district": 7,
+    "lat": 34.118449995119946,
+    "lng": -79.53510882067245
+  },
+  {
+    "state": "South Dakota",
+    "district": 0,
+    "lat": 44.43614604533284,
+    "lng": -100.23049039124794
+  },
+  {
+    "state": "Tennessee",
+    "district": 1,
+    "lat": 36.20583193323403,
+    "lng": -82.83166185551356
+  },
+  {
+    "state": "Tennessee",
+    "district": 2,
+    "lat": 36.10526329468469,
+    "lng": -83.88774333883771
+  },
+  {
+    "state": "Tennessee",
+    "district": 3,
+    "lat": 35.61151415309627,
+    "lng": -84.58269958621668
+  },
+  {
+    "state": "Tennessee",
+    "district": 4,
+    "lat": 35.39681742852011,
+    "lng": -86.14454948618102
+  },
+  {
+    "state": "Tennessee",
+    "district": 5,
+    "lat": 35.73459412761604,
+    "lng": -86.90108835570986
+  },
+  {
+    "state": "Tennessee",
+    "district": 6,
+    "lat": 36.22107785644607,
+    "lng": -85.5737656999582
+  },
+  {
+    "state": "Tennessee",
+    "district": 7,
+    "lat": 36.01553205743663,
+    "lng": -87.54893272729801
+  },
+  {
+    "state": "Tennessee",
+    "district": 8,
+    "lat": 35.72135391208231,
+    "lng": -88.916747095967
+  },
+  {
+    "state": "Tennessee",
+    "district": 9,
+    "lat": 35.28005344219238,
+    "lng": -89.93117427356525
+  },
+  {
+    "state": "Texas",
+    "district": 1,
+    "lat": 32.493436093948056,
+    "lng": -94.5658519667641
+  },
+  {
+    "state": "Texas",
+    "district": 2,
+    "lat": 30.094182709465546,
+    "lng": -95.25410722871328
+  },
+  {
+    "state": "Texas",
+    "district": 3,
+    "lat": 33.17120007917556,
+    "lng": -96.29309280464359
+  },
+  {
+    "state": "Texas",
+    "district": 4,
+    "lat": 33.47007814656833,
+    "lng": -95.82588731363111
+  },
+  {
+    "state": "Texas",
+    "district": 5,
+    "lat": 32.55463478102263,
+    "lng": -95.81490009833185
+  },
+  {
+    "state": "Texas",
+    "district": 6,
+    "lat": 32.008682540313174,
+    "lng": -96.2630777551471
+  },
+  {
+    "state": "Texas",
+    "district": 7,
+    "lat": 29.681741982125445,
+    "lng": -95.59813670952636
+  },
+  {
+    "state": "Texas",
+    "district": 8,
+    "lat": 30.55999843870798,
+    "lng": -95.23185260655873
+  },
+  {
+    "state": "Texas",
+    "district": 9,
+    "lat": 29.606095059885725,
+    "lng": -95.43899258390914
+  },
+  {
+    "state": "Texas",
+    "district": 10,
+    "lat": 30.214480328604157,
+    "lng": -96.5614741284459
+  },
+  {
+    "state": "Texas",
+    "district": 11,
+    "lat": 31.386388243168103,
+    "lng": -99.98522410170338
+  },
+  {
+    "state": "Texas",
+    "district": 12,
+    "lat": 32.82259380529555,
+    "lng": -97.66007584219129
+  },
+  {
+    "state": "Texas",
+    "district": 13,
+    "lat": 34.92949957951892,
+    "lng": -100.72844392902672
+  },
+  {
+    "state": "Texas",
+    "district": 14,
+    "lat": 29.498710656834547,
+    "lng": -94.80746755249766
+  },
+  {
+    "state": "Texas",
+    "district": 15,
+    "lat": 27.97266880029305,
+    "lng": -98.0962688505638
+  },
+  {
+    "state": "Texas",
+    "district": 16,
+    "lat": 31.812546081598498,
+    "lng": -106.40621293397159
+  },
+  {
+    "state": "Texas",
+    "district": 17,
+    "lat": 31.25268054975096,
+    "lng": -96.03042803615136
+  },
+  {
+    "state": "Texas",
+    "district": 18,
+    "lat": 29.89376882929187,
+    "lng": -95.38311984021534
+  },
+  {
+    "state": "Texas",
+    "district": 19,
+    "lat": 33.18881681445468,
+    "lng": -101.44974684057136
+  },
+  {
+    "state": "Texas",
+    "district": 20,
+    "lat": 29.45594980762281,
+    "lng": -98.61888946320967
+  },
+  {
+    "state": "Texas",
+    "district": 21,
+    "lat": 30.02219141453888,
+    "lng": -98.91230546287058
+  },
+  {
+    "state": "Texas",
+    "district": 22,
+    "lat": 29.162295802677342,
+    "lng": -95.9891536169845
+  },
+  {
+    "state": "Texas",
+    "district": 23,
+    "lat": 30.376185471782467,
+    "lng": -102.37163768425442
+  },
+  {
+    "state": "Texas",
+    "district": 24,
+    "lat": 32.91077322197786,
+    "lng": -97.06799469055001
+  },
+  {
+    "state": "Texas",
+    "district": 25,
+    "lat": 32.56063628403567,
+    "lng": -98.43491881117731
+  },
+  {
+    "state": "Texas",
+    "district": 26,
+    "lat": 33.365355721589594,
+    "lng": -97.26085254557901
+  },
+  {
+    "state": "Texas",
+    "district": 27,
+    "lat": 28.804166000762613,
+    "lng": -97.24529450295577
+  },
+  {
+    "state": "Texas",
+    "district": 28,
+    "lat": 27.735879721179654,
+    "lng": -98.85234309771465
+  },
+  {
+    "state": "Texas",
+    "district": 29,
+    "lat": 29.805519828793898,
+    "lng": -95.28483711610713
+  },
+  {
+    "state": "Texas",
+    "district": 30,
+    "lat": 32.650507075548234,
+    "lng": -96.81464248517253
+  },
+  {
+    "state": "Texas",
+    "district": 31,
+    "lat": 31.25598248052319,
+    "lng": -97.8010882926116
+  },
+  {
+    "state": "Texas",
+    "district": 32,
+    "lat": 32.88377366742201,
+    "lng": -96.71287463221904
+  },
+  {
+    "state": "Texas",
+    "district": 33,
+    "lat": 32.770947175853216,
+    "lng": -97.09327889011982
+  },
+  {
+    "state": "Texas",
+    "district": 34,
+    "lat": 26.736493226021107,
+    "lng": -97.6800263798493
+  },
+  {
+    "state": "Texas",
+    "district": 35,
+    "lat": 30.01065733394465,
+    "lng": -97.8400069798244
+  },
+  {
+    "state": "Texas",
+    "district": 36,
+    "lat": 30.39955866628408,
+    "lng": -94.36039892855722
+  },
+  {
+    "state": "Texas",
+    "district": 37,
+    "lat": 30.319085706809446,
+    "lng": -97.78813265735253
+  },
+  {
+    "state": "Texas",
+    "district": 38,
+    "lat": 29.947367928081192,
+    "lng": -95.61216247048131
+  },
+  {
+    "state": "Utah",
+    "district": 1,
+    "lat": 41.4604193436932,
+    "lng": -112.46444698110223
+  },
+  {
+    "state": "Utah",
+    "district": 2,
+    "lat": 38.738688548184165,
+    "lng": -112.58746558226773
+  },
+  {
+    "state": "Utah",
+    "district": 3,
+    "lat": 39.19362258077619,
+    "lng": -110.10480506606372
+  },
+  {
+    "state": "Utah",
+    "district": 4,
+    "lat": 39.75535596019464,
+    "lng": -111.7141739554232
+  },
+  {
+    "state": "Vermont",
+    "district": 0,
+    "lat": 44.075202699930934,
+    "lng": -72.66262068132437
+  },
+  {
+    "state": "Virginia",
+    "district": 1,
+    "lat": 37.67267134498371,
+    "lng": -76.88278574081077
+  },
+  {
+    "state": "Virginia",
+    "district": 2,
+    "lat": 37.058985886326305,
+    "lng": -76.23248363482627
+  },
+  {
+    "state": "Virginia",
+    "district": 3,
+    "lat": 36.95981205021678,
+    "lng": -76.37255009396046
+  },
+  {
+    "state": "Virginia",
+    "district": 4,
+    "lat": 37.00519309521306,
+    "lng": -77.40924458742475
+  },
+  {
+    "state": "Virginia",
+    "district": 5,
+    "lat": 37.32459198889634,
+    "lng": -78.59636548286481
+  },
+  {
+    "state": "Virginia",
+    "district": 6,
+    "lat": 38.27672453411047,
+    "lng": -79.15664315993364
+  },
+  {
+    "state": "Virginia",
+    "district": 7,
+    "lat": 38.2873667448293,
+    "lng": -77.73584845074087
+  },
+  {
+    "state": "Virginia",
+    "district": 8,
+    "lat": 38.80329504849968,
+    "lng": -77.13443081868387
+  },
+  {
+    "state": "Virginia",
+    "district": 9,
+    "lat": 36.969309908253585,
+    "lng": -81.14888235110686
+  },
+  {
+    "state": "Virginia",
+    "district": 10,
+    "lat": 38.842701095102065,
+    "lng": -77.76684385870912
+  },
+  {
+    "state": "Virginia",
+    "district": 11,
+    "lat": 38.86796551491894,
+    "lng": -77.31007379868565
+  },
+  {
+    "state": "Washington",
+    "district": 1,
+    "lat": 47.87600909515696,
+    "lng": -122.12579591776091
+  },
+  {
+    "state": "Washington",
+    "district": 2,
+    "lat": 48.61853217565956,
+    "lng": -121.83816868215774
+  },
+  {
+    "state": "Washington",
+    "district": 3,
+    "lat": 46.319384946546776,
+    "lng": -122.55465317929557
+  },
+  {
+    "state": "Washington",
+    "district": 4,
+    "lat": 47.25048210449028,
+    "lng": -120.00150718422601
+  },
+  {
+    "state": "Washington",
+    "district": 5,
+    "lat": 47.4476079793564,
+    "lng": -118.01281168277282
+  },
+  {
+    "state": "Washington",
+    "district": 6,
+    "lat": 47.58800698825492,
+    "lng": -123.59585215285334
+  },
+  {
+    "state": "Washington",
+    "district": 7,
+    "lat": 47.575832874052466,
+    "lng": -122.36927879501944
+  },
+  {
+    "state": "Washington",
+    "district": 8,
+    "lat": 47.54808971446021,
+    "lng": -121.14510002581208
+  },
+  {
+    "state": "Washington",
+    "district": 9,
+    "lat": 47.44435090263009,
+    "lng": -122.24182240487758
+  },
+  {
+    "state": "Washington",
+    "district": 10,
+    "lat": 47.04121007667848,
+    "lng": -122.75455306629186
+  },
+  {
+    "state": "West Virginia",
+    "district": 1,
+    "lat": 38.20579158164522,
+    "lng": -81.14006217172899
+  },
+  {
+    "state": "West Virginia",
+    "district": 2,
+    "lat": 39.27846595193998,
+    "lng": -79.84747351696674
+  },
+  {
+    "state": "Wisconsin",
+    "district": 1,
+    "lat": 42.67920907199032,
+    "lng": -88.39970384578017
+  },
+  {
+    "state": "Wisconsin",
+    "district": 2,
+    "lat": 42.96751211586342,
+    "lng": -89.73796923560072
+  },
+  {
+    "state": "Wisconsin",
+    "district": 3,
+    "lat": 44.05290571674669,
+    "lng": -90.9028817423974
+  },
+  {
+    "state": "Wisconsin",
+    "district": 4,
+    "lat": 43.07656899330413,
+    "lng": -87.96821007435983
+  },
+  {
+    "state": "Wisconsin",
+    "district": 5,
+    "lat": 43.165656962027704,
+    "lng": -88.51365454810835
+  },
+  {
+    "state": "Wisconsin",
+    "district": 6,
+    "lat": 43.80561074062925,
+    "lng": -88.69577094996986
+  },
+  {
+    "state": "Wisconsin",
+    "district": 7,
+    "lat": 45.588397364068165,
+    "lng": -90.65798858852148
+  },
+  {
+    "state": "Wisconsin",
+    "district": 8,
+    "lat": 44.82858357685041,
+    "lng": -88.28325056180839
+  },
+  {
+    "state": "Wyoming",
+    "district": 0,
+    "lat": 42.99955577799059,
+    "lng": -107.55136224410053
+  }
+]

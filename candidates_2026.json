@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Jerry Carl",
+    "state": "Alabama",
+    "office": "U.S. House Alabama District 1",
+    "party": "Republican",
+    "campaign_website": "https://electjerrycarl.com",
+    "incumbent": true,
+    "profile_url": "https://ballotpedia.org/Jerry_Carl"
+  },
+  {
+    "name": "Shomari Figures",
+    "state": "Alabama",
+    "office": "U.S. House Alabama District 2",
+    "party": "Democratic",
+    "campaign_website": "https://shomarifigures.com",
+    "incumbent": true,
+    "profile_url": "https://ballotpedia.org/Shomari_Figures"
+  },
+  {
+    "name": "Tommy Tuberville",
+    "state": "Alabama",
+    "office": "U.S. Senate Alabama",
+    "party": "Republican",
+    "campaign_website": "https://tuberville.com",
+    "incumbent": true,
+    "profile_url": "https://ballotpedia.org/Tommy_Tuberville"
+  }
+]
