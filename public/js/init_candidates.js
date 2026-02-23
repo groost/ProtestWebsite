@@ -238,6 +238,16 @@ function initSearch() {
     });
 }
 
+async function getContributionsFromDrive() {
+    const fetching = await fetch("/api/get_contributions");
+    const data = await fetching.json();
+
+    const individual = data.individual;
+    const pac = data.pac;
+    
+    return { individual, pac };
+}
+
 async function init(party) {
     const enrichedData = await parseCSV("../files/candidates_enriched.csv");
     const contributionsLookup = buildContributionsLookup(enrichedData);
