@@ -1,0 +1,6 @@
+git rm -r --cached node_modules
+```
+
+**2. Make sure your `.gitignore` includes node_modules:**
+```
+node_modules/
