@@ -73,12 +73,20 @@ app.use(passport.session());
 
 app.use(express.static('public'));
 
-app.get('/auth/google', (req, res, next) => {
+function ensureGoogleOAuthConfigured(req, res, next) {
   if (!process.env.GOOGLE_OAUTH_CLIENT_ID || !process.env.GOOGLE_OAUTH_CLIENT_SECRET) {
     return res.status(500).send('Google OAuth is not configured (missing env vars).');
   }
-  return passport.authenticate('google', { scope: ['profile', 'email'] })(req, res, next);
-});
+  return next();
+}
+
+app.get(
+  '/auth/google',
+  ensureGoogleOAuthConfigured,
+  passport.authenticate('google', {
+    scope: ['openid', 'profile', 'email']
+  })
+);
 
 app.get(
   '/auth/google/callback',
