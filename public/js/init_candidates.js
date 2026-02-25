@@ -102,9 +102,15 @@ function convertCentroidsArrayToObject(array) {
 }
 
 async function parseCSV(url) {
+    console.log('Fetching:', url);
     const response = await fetch(url);
+    console.log('Response status:', response.status);
     const csvText = await response.text();
-    return Papa.parse(csvText, { header: true }).data;
+    console.log('CSV text length:', csvText.length);
+    const parsed = Papa.parse(csvText, { header: true }).data;
+    console.log('Parsed rows:', parsed.length);
+    console.log('First row:', parsed[0]);
+    return parsed;
 }
 
 async function getWebsites() {
