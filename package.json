@@ -14,7 +14,10 @@
     "csv-parse": "^6.1.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "nodemailer": "^7.0.13"
+    "express-session": "^1.17.3",
+    "nodemailer": "^7.0.13",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "opencode-ai": "^1.0.0"

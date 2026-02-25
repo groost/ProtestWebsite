@@ -5,14 +5,101 @@ const email = require('./email');
 const fs = require("fs");
 require('dotenv').config();
 const { parse } = require('csv-parse');
+const session = require('express-session');
+const passport = require('passport');
+const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
 const app = express();
 const PORT = 8080;
 
+passport.serializeUser((user, done) => {
+  done(null, user);
+});
+
+passport.deserializeUser((user, done) => {
+  done(null, user);
+});
+
+if (process.env.GOOGLE_OAUTH_CLIENT_ID && process.env.GOOGLE_OAUTH_CLIENT_SECRET) {
+  passport.use(
+    new GoogleStrategy(
+      {
+        clientID: process.env.GOOGLE_OAUTH_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_OAUTH_CLIENT_SECRET,
+        callbackURL:
+          process.env.GOOGLE_OAUTH_CALLBACK_URL || `http://localhost:${PORT}/auth/google/callback`
+      },
+      (accessToken, refreshToken, profile, done) => {
+        const email = profile.emails?.[0]?.value || null;
+        const user = {
+          provider: profile.provider,
+          id: profile.id,
+          displayName: profile.displayName,
+          email
+        };
+        return done(null, user);
+      }
+    )
+  );
+}
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET || 'dev_session_secret',
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      sameSite: 'lax'
+    }
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.use(express.static('public'));
+
+app.get('/auth/google', (req, res, next) => {
+  if (!process.env.GOOGLE_OAUTH_CLIENT_ID || !process.env.GOOGLE_OAUTH_CLIENT_SECRET) {
+    return res.status(500).send('Google OAuth is not configured (missing env vars).');
+  }
+  return passport.authenticate('google', { scope: ['profile', 'email'] })(req, res, next);
+});
+
+app.get(
+  '/auth/google/callback',
+  passport.authenticate('google', {
+    failureRedirect: '/'
+  }),
+  (req, res) => {
+    res.redirect('/candidates.html');
+  }
+);
+
+app.get('/me', (req, res) => {
+  res.json({ user: req.user || null });
+});
+
+app.post('/logout', (req, res, next) => {
+  const finish = () => {
+    req.session?.destroy(() => {
+      res.json({ success: true });
+    });
+  };
+
+  if (typeof req.logout === 'function') {
+    return req.logout(err => {
+      if (err) return next(err);
+      finish();
+    });
+  }
+  finish();
+});
 
 // Route to serve the HTML form
 app.get('/', (req, res) => {
