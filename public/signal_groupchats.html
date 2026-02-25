@@ -11,32 +11,31 @@
         <div class="topnav">
             <a href="index.html">Map</a>
             <a href="candidates.html">Candidates</a>
-            <a href="NGOs.html">NGOs</a>
             <a class="active" href="signal_groupchats.html">Signal GroupChats</a>
         </div>
 
-        <br><br><br>
+        <main class="page">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p class="subtitle">Fill out the form below and we'll get back to you soon!</p>
 
-        <div class="container">
-            <h1>Get In Touch</h1>
-            <p class="subtitle">Fill out the form below and we'll get back to you soon!</p>
+                <div id="messageBox" class="message"></div>
 
-            <div id="messageBox" class="message"></div>
+                <form id="contactForm">
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
 
-            <form id="contactForm">
-            <div class="form-group">
-                <label for="email">Email *</label>
-                <input type="text" id="email" name="email" required>
+                <div class="form-group">
+                    <label for="code">Code *</label>
+                    <input type="text" id="code" name="code" required>
+                </div>
+
+                <button type="submit" id="submitBtn">Send Message</button>
+                </form>
             </div>
-
-            <div class="form-group">
-                <label for="code">Code *</label>
-                <input type="text" id="code" name="code" required>
-            </div>
-
-            <button type="submit" id="submitBtn">Send Message</button>
-            </form>
-        </div>
+        </main>
 
         <script src="/js/init_groupchats.js" defer></script>
         <div id="groupModal" class="modal">

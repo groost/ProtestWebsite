@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
+  <title>Map</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -17,32 +17,31 @@
   <div class="topnav">
     <a class="active" href="index.html">Map</a>
     <a href="candidates.html">Candidates</a>
-    <a href="NGOs.html">NGOs</a>
     <a href="signal_groupchats.html">Signal GroupChats</a>
   </div>
 
-  <br>
+  <main class="page">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p class="subtitle">Fill out the form below and we'll get back to you soon!</p>
 
-  <div class="container">
-    <h1>Get In Touch</h1>
-    <p class="subtitle">Fill out the form below and we'll get back to you soon!</p>
+      <div id="messageBox" class="message"></div>
 
-    <div id="messageBox" class="message"></div>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="text" id="email" name="email" required>
+        </div>
 
-    <form id="contactForm">
-      <div class="form-group">
-        <label for="email">Email *</label>
-        <input type="text" id="email" name="email" required>
-      </div>
+        <div class="form-group">
+          <label for="code">Code *</label>
+          <input type="text" id="code" name="code" required>
+        </div>
 
-      <div class="form-group">
-        <label for="code">Code *</label>
-        <input type="text" id="code" name="code" required>
-      </div>
-
-      <button type="submit" id="submitBtn">Send Message</button>
-    </form>
-  </div>
+        <button type="submit" id="submitBtn">Send Message</button>
+      </form>
+    </div>
+  </main>
 
   <script src="/js/init_map.js" defer></script>
 </body>

@@ -69,9 +69,13 @@ function showMessage(type, text) {
 
 function giveAccess() {
     document.cookie = "access=success; expires=Thu, 18 Dec 2026 12:00:00 UTC; path=/";
-    // Remove the entire container (form and all)
-    const container = document.querySelector('.container');
-    container.remove();
+    const page = document.querySelector('main.page');
+    if (page) {
+        page.remove();
+    } else {
+        const container = document.querySelector('.container');
+        if (container) container.remove();
+    }
 
     const appContainer = document.createElement("div");
     appContainer.id = "app";
@@ -79,7 +83,6 @@ function giveAccess() {
     // Create and insert map container
     const mapContainer = document.createElement('div');
     mapContainer.id = 'map';
-    mapContainer.style.cssText = 'width: 100%; height: 100vh;';
     appContainer.appendChild(mapContainer);
 
     const sidebarContainer = document.createElement('div');
@@ -119,7 +122,6 @@ function giveAccess() {
 
     makePopups(map);
     showMarkers(map);
-    openCrimesModal();
 }
 
 function openCrimesModal() {

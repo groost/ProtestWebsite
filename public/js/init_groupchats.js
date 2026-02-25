@@ -52,41 +52,61 @@ function init() {
 
 function giveAccess() {
     document.cookie = "access=success; expires=Thu, 18 Dec 2026 12:00:00 UTC; path=/";
-    // Remove the entire container (form and all)
-    const container = document.querySelector('.container');
-    container.remove();
+    const page = document.querySelector('main.page');
+    if (page) {
+        page.remove();
+    } else {
+        const container = document.querySelector('.container');
+        if (container) container.remove();
+    }
 
-    const buttonContainer = document.createElement("form");
-    buttonContainer.id = "topbar";
+    const newPage = document.createElement('main');
+    newPage.className = 'page';
 
-    const button = document.createElement("button");
-    button.type = "submit";
-    button.id = "OpenPageButton";
-    button.textContent = "Add Signal Chat";
+    const card = document.createElement('section');
+    card.className = 'card';
 
-    buttonContainer.appendChild(button);
-    document.body.appendChild(buttonContainer);
+    const inner = document.createElement('div');
+    inner.className = 'card-inner';
 
-    buttonContainer.addEventListener('submit', async (e) => {
-        e.preventDefault();
+    const title = document.createElement('h1');
+    title.innerText = 'Signal GroupChats';
+    inner.appendChild(title);
 
-        const modal = document.getElementById('groupModal');
+    const subtitle = document.createElement('p');
+    subtitle.className = 'subtitle';
+    subtitle.innerText = 'Add and share Signal group chats for local organizing.';
+    inner.appendChild(subtitle);
 
-        modal.classList.add("show");
-        
-        window.onclick = (e) => {
-            if (e.target == modal) {
-                const formData = new FormData(e.target);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.id = 'OpenPageButton';
+    button.textContent = 'Add Signal Chat';
+    inner.appendChild(button);
 
-                const data = {
-                    link: formData.get("link"),
-                    city: formData.get("city")
-                };
+    card.appendChild(inner);
+    newPage.appendChild(card);
+    document.body.appendChild(newPage);
 
-                addLink(data);
-                modal.style.display = "none";
-            }
-        };
+    const modal = document.getElementById('groupModal');
+    modal.classList.remove('show');
+
+    button.addEventListener('click', () => {
+        modal.classList.add('show');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            const formData = new FormData(document.getElementById('groupForm'));
+
+            const data = {
+                link: formData.get("link"),
+                city: formData.get("city")
+            };
+
+            addLink(data);
+            modal.classList.remove('show');
+        }
     });
 }
 
