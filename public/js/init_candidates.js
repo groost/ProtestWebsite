@@ -249,7 +249,7 @@ async function getContributionsFromDrive() {
 }
 
 async function init(party) {
-    const enrichedData = await parseCSV("../files/candidates_enriched.csv");
+    const enrichedData = await parseCSV("/files/candidates_enriched.csv");
     const contributionsLookup = buildContributionsLookup(enrichedData);
     
     allCandidates = enrichedData.filter(row => row.candidate_name && row.state);
@@ -547,7 +547,7 @@ async function filterCandidates(candidates) {
 }
 
 async function addWebsites(candidates) {
-    const data = await parseCSV("../files/candidates_enriched_with_websites.csv");
+    const data = await parseCSV("/files/candidates_enriched_with_websites.csv");
     // console.log(data);
 
     for(const candidate of candidates) {
@@ -570,7 +570,7 @@ async function findUserDistrict(coords) {
 
     const userPoint = turf.point([lng, lat]);
 
-    const response = await fetch("../files/congress.json");
+    const response = await fetch("/files/congress.json");
     const geoData = await response.json();
 
     for (const feature of geoData.features) {

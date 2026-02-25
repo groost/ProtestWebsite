@@ -85,6 +85,12 @@ function giveAccess() {
     const sidebarContainer = document.createElement('div');
     sidebarContainer.id = "sidebar";
 
+    const addButton = document.createElement('button');
+    addButton.innerText = 'See Crimes';
+    addButton.id = 'see-crimes-btn';
+    addButton.onclick = () => openCrimesModal();
+    sidebarContainer.appendChild(addButton);
+
     const header = document.createElement("h2");
     header.innerText = "Protests";
     sidebarContainer.appendChild(header);
@@ -113,6 +119,85 @@ function giveAccess() {
 
     makePopups(map);
     showMarkers(map);
+    openCrimesModal();
+}
+
+function openCrimesModal() {
+    const overlay = document.createElement('div');
+    overlay.id = 'modal-overlay';
+    overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+    
+    const modal = document.createElement('div');
+    modal.id = 'modal';
+
+    const title = document.createElement('h2');
+    title.innerText = "Crimes of ICE and Trump";
+    modal.appendChild(title);
+
+    const scrollPanel = document.createElement('div');
+    scrollPanel.id = 'modal-scroll-panel';
+
+    const crimes = getCrimes();
+    for(var i = 0; i < crimes.length; i++) {
+        scrollPanel.appendChild(crimes[i]);
+    }
+
+    modal.appendChild(scrollPanel);
+    overlay.append(modal);
+    document.body.appendChild(overlay);
+}
+
+
+function getCrimes() {
+    var crimes = [];
+    
+    var toAdd = document.createElement("a");
+    toAdd.href = "https://www.amnesty.org/en/latest/news/2025/04/president-trumps-first-100-days-attacks-on-human-rights/";
+    toAdd.innerText = "Amesty International";
+    toAdd.target = '_blank';
+    crimes.push(toAdd);
+
+    toAdd = document.createElement("a");
+    toAdd.href = "https://immigrantjustice.org/blog/leading-with-cruelty-eight-impacts-of-trumps-first-day-executive-orders/";
+    toAdd.target = '_blank';
+    toAdd.innerText = "Immigrant Justice";
+    crimes.push(toAdd);
+    
+    toAdd = document.createElement("a");
+    toAdd.href = "https://www.aclu.org/news/human-rights/the-targeted-chaos-of-trumps-attacks-against-international-human-rights-law-and-justice";
+    toAdd.target = '_blank';
+    toAdd.innerText = "ACLU";
+    crimes.push(toAdd);
+
+    toAdd = document.createElement("a");
+    toAdd.href = "https://www.theguardian.com/us-news/2026/jan/09/federal-officers-blocked-medics-from-scene-of-ice-shooting-witnesses-say";
+    toAdd.target = '_blank';
+    toAdd.innerText = "Renee Nicole Good";
+    crimes.push(toAdd);
+
+    toAdd = document.createElement("a");
+    toAdd.href = "https://www.nbcnews.com/news/us-news/witness-videos-cbp-killing-minnesota-man-appear-counter-trump-administ-rcna255791";
+    toAdd.target = '_blank';
+    toAdd.innerText = "Alex Pretti";
+    crimes.push(toAdd);
+    
+    toAdd = document.createElement("a");
+    toAdd.href = "https://www.independent.co.uk/news/world/americas/us-politics/ruben-ray-martinez-ice-shooting-good-pretti-b2924800.html";
+    toAdd.target = '_blank';
+    toAdd.innerText = "Ruben Ray Martinez";
+    crimes.push(toAdd);
+
+    // toAdd = document.createElement("a");
+    // toAdd.href = "";
+    // toAdd.innerText = "Immigrant Justice";
+    // crimes.append(toAdd);
+    
+    // toAdd = document.createElement("a");
+    // toAdd.href = "";
+    // toAdd.innerText = "Immigrant Justice";
+    // crimes.append(toAdd);
+
+    return crimes;
 }
 
 function makePopups(map) {
