@@ -12,6 +12,11 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 const PORT = 8080;
 
+const IS_PROD = process.env.NODE_ENV === 'production';
+
+// If deployed behind a reverse proxy (common for HTTPS), trust proxy so req.protocol can be correct.
+app.set('trust proxy', 1);
+
 passport.serializeUser((user, done) => {
   done(null, user);
 });
@@ -27,7 +32,10 @@ if (process.env.GOOGLE_OAUTH_CLIENT_ID && process.env.GOOGLE_OAUTH_CLIENT_SECRET
         clientID: process.env.GOOGLE_OAUTH_CLIENT_ID,
         clientSecret: process.env.GOOGLE_OAUTH_CLIENT_SECRET,
         callbackURL:
-          process.env.GOOGLE_OAUTH_CALLBACK_URL || `http://localhost:${PORT}/auth/google/callback`
+          process.env.GOOGLE_OAUTH_CALLBACK_URL ||
+          (IS_PROD
+            ? 'https://havehumanity.org/auth/google/callback'
+            : `http://localhost:${PORT}/auth/google/callback`)
       },
       (accessToken, refreshToken, profile, done) => {
         const email = profile.emails?.[0]?.value || null;
@@ -54,7 +62,8 @@ app.use(
     saveUninitialized: false,
     cookie: {
       httpOnly: true,
-      sameSite: 'lax'
+      sameSite: 'lax',
+      secure: IS_PROD
     }
   })
 );
