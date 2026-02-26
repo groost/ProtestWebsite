@@ -4,8 +4,23 @@ function init() {
     const form = document.getElementById('contactForm');
     const submitBtn = document.getElementById('submitBtn');
 
+    if (!form) {
+        giveAccess();
+        return;
+    }
+
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
+
+        const messageBox = document.getElementById('messageBox');
+        if (!messageBox) {
+            console.error('Missing #messageBox element');
+        }
+
+        if (!submitBtn) {
+            console.error('Missing #submitBtn element');
+            return;
+        }
 
         // Disable button and show loading state
         submitBtn.disabled = true;
@@ -13,15 +28,15 @@ function init() {
 
         // Get form data
         const formData = {
-            email: document.getElementById('email').value,
-            code: document.getElementById('code').value
+            email: document.getElementById('email')?.value,
+            code: document.getElementById('code')?.value
         };
 
         try {
             const response = await fetch('/check-email', {
                 method: 'POST',
                 headers: {
-                'Content-Type': 'application/json'
+                    'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(formData)
             });
@@ -44,20 +59,18 @@ function init() {
         }
     });
 
-    let x = document.cookie;
-    if(x === 'access=success') {
+    const x = document.cookie;
+    if (x === 'access=success') {
         giveAccess();
     }
 }
 
-var currentLocation = null;
-var markers = [];
-var markerById = {};
-
 // getCandidates();
 
-
 function showMessage(type, text) {
+    const messageBox = document.getElementById('messageBox');
+    if (!messageBox) return;
+
     messageBox.className = `message ${type} show`;
     messageBox.textContent = text;
 
