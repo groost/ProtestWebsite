@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", init);
+var markers = [];
 
 function init() {
     const form = document.getElementById('contactForm');
