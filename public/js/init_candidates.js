@@ -136,10 +136,24 @@ function getContributions(candidateId, lookup) {
     return lookup[candidateId] || { individual: 0, pac: 0 };
 }
 
+function formatUSD(amount) {
+    const safeAmount = Number.isFinite(amount) ? amount : 0;
+    return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        maximumFractionDigits: 0
+    }).format(safeAmount);
+}
+
 function createMiniPieChart(individual, pac) {
     const total = individual + pac;
     const div = document.createElement('div');
     div.className = 'mini-pie';
+
+    div.setAttribute(
+        'title',
+        `Individual: ${formatUSD(individual)}\nPAC: ${formatUSD(pac)}\nTotal: ${formatUSD(total)}`
+    );
     
     if (total === 0) {
         div.style.background = '#ccc';
